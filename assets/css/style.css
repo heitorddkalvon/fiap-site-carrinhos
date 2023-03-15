@@ -1,0 +1,46 @@
+/* estilo para o cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+
+  }
+  
+  /* estilo para o logo */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  /* estilo para o título */
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* estilo para a navegação */
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    background-image: url("images/background.jpg");
+    background-size: auto;
+    font-size: 18px;
+  }
