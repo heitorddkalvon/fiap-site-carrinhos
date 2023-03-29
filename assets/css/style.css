@@ -60,6 +60,19 @@ li h3 {
   margin-top: 0;
 }
 
+li {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #050505;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+
 li img {
   width: 100%;
 }
