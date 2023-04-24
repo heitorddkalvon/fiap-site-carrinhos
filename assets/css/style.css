@@ -95,3 +95,11 @@ li button {
 footer {
   background-color: #333;
   color: #fff;
+}
+
+button.disabled {
+    background-color: #ddd;
+    color: #aaa;
+    cursor: default;
+  }
+  
